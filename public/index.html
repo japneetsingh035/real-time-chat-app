@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Real-Time Chat App</title>
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chat-window"></div>
+        <input id="chat-input" type="text" placeholder="Type a message...">
+        <button id="send-btn">Send</button>
+    </div>
+    <!-- Correctly link Socket.io library from the server -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>
